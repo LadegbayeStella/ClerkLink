@@ -4,14 +4,17 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    color: #1D2939;
-
+    /* color: # bb; */
 }
 
 body {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -25,7 +28,7 @@ header {
         linear-gradient(0deg, #D0D5DD, #D0D5DD);
     max-width: 100%;
     width: 100%;
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
     border-radius: 100px;
 }
 
@@ -57,6 +60,40 @@ nav ul li {
     gap: 2rem;
 }
 
+.button-div button {
+    border: none;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #98A2B3;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.button-div button a{
+    color: #101828;
+    font-weight: 900;
+   
+}
+
+
+.button-div .button {
+    border: none;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    background: #175CD3;;
+    border: 1px solid #98A2B3;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.button-div .button a {
+    color: #FFFFFF;
+}
+
+header .fa-solid {
+   display: none;
+}
+
 @media screen and (max-width: 320px) {
     header {
         background: none;
@@ -75,15 +112,20 @@ nav ul li {
         margin-left: 4rem;
     }
 
+
+    header .fa-solid {
+        visibility: visible;
+    }
+
     nav {
         display: none;
     }
 
     .button-div {
-        display: none;
+       visibility: hidden;
     }
 
-   
+
 }
 
 
@@ -102,10 +144,11 @@ nav ul li {
 
     header label img {
         max-width: 200px;
-       /* margin-left: 8rem; */
-    
     }
 
+    header .fa-solid {
+        visibility: visible;
+    }
     nav {
         display: none;
     }
@@ -113,5 +156,5 @@ nav ul li {
     .button-div {
         display: none;
     }
-   
+
 }
