@@ -145,7 +145,11 @@ header .fa-solid {
 
 
     .hero1 .text-h1 {
-        padding: 2rem;
+        padding: 2.5rem;
+        width: 100%;
+        max-width: 500px;
+        margin: 6px;
+        /* margin-top: -4rem; */
     }
 
     .hero1 .text-h1 h1 {
@@ -155,6 +159,17 @@ header .fa-solid {
         font-family: inherit, Haettenschweiler, sans-serif;
     }
 
+    text-p p {
+        /* text-align: center; */
+        font-size: 19px;
+    }
+
+    .text-p {
+        width: 100%;
+        max-width: 500px;
+        /* padding-top: 6rem; */
+        padding: 0 2.5rem;
+    }
 }
 
 
@@ -192,49 +207,47 @@ header .fa-solid {
         width: 100%;
         max-width: 500px;
         margin: 6px;
-        margin-top: -8rem;
+        margin-top: -4rem;
     }
 
 
-    br{
+    br {
         display: none;
     }
 
-    #head1{
-        text-align: center;
+    #head1 {
+        /* text-align: center; */
         font-size: 30px;
     }
 
     .text-h1 h1 {
         color: #1D2939;
-        font-size: 10px;
         font-weight: 600;
         font-family: inherit, Haettenschweiler, sans-serif;
     }
 
-    .text-p p{
-        text-align: center;
-        font-size: 19px; 
+    .text-p p {
+        /* text-align: center; */
+        font-size: 19px;
     }
 
-    .text-p  {
+    .text-p {
         width: 100%;
         max-width: 500px;
         margin: 6px;
-        margin-top: -3rem;
+        /* margin-top: 2rem; */
     }
 }
 
 
 
 /* main */
-
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
-    width: 100%;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-top: 5rem; */
+    /* width: 100%; */
 }
 
 main .main-wrapper {
